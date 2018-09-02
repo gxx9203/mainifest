@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="origin"
-			fetch=".."/>
+			fetch="ssh:admin@127.0.0.1:82"
+			review="127.0.0.1:82"/>
 	<default revision="master"
            remote="origin"
            sync-j="4" />
