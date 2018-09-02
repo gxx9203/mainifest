@@ -6,11 +6,11 @@
            remote="origin"
            sync-j="4" />
 
-	<project path="abi" name="AndroidN/abi" remote="origin " >
+	<project path="build" name="AndroidN/build" remote="origin " >
 		<copyfile src="core/root.mk" dest="Makefile" />
 	</project>
 	<project path="bionic" name="AndroidN/bionic" remote="origin"/>
-	<project path="build" name="AndroidN/build" remote="origin"/>
+	<project path="abi" name="AndroidN/abi" remote="origin"/>
 	<project path="dalvik" name="AndroidN/dalvik" remote="origin"/>
     <project path="development" name="AndroidN/development" remote="origin"/>
     <project path="docs" name="AndroidN/docs" remote="origin"/>
