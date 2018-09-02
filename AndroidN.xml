@@ -24,7 +24,10 @@
     <project path="bootable" name="AndroidN/bootable" remote="origin"/>
     <project path="cts" name="AndroidN/cts" remote="origin"/>
 	<project path="developers" name="AndroidN/developers" remote="origin"/>
-	<project path="device" name="AndroidN/device" remote="origin"/>
+	<project path="device" name="AndroidN/device" remote="origin">
+			<copyfile src="frindly-arm/tiny4412/gen-img.sh" dest="gen-img.sh" />
+			<copyfile src="frindly-arm/tiny4412/set-env" dest="set-env" />
+	</project>
 	<project path="external" name="AndroidN/external" remote="origin"/>
     <project path="libcore" name="AndroidN/libcore" remote="origin"/>
     <project path="pdk" name="AndroidN/pdk" remote="origin"/>
