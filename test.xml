@@ -2,7 +2,7 @@
 <manifest>
 	<remote name="mygerrit"
 			fetch=".."
-			review="ssh://admin@127.0.0.1:29418"/>
+			review="127.0.0.1:82"/>
 	<default revision="master"
            remote="mygerrit"
            sync-j="4" />
