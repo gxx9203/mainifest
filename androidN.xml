@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin"
+			fetch=".."/>
+	<default revision="master"
+           remote="origin"
+           sync-j="4" />
+
+	<project path="abi" name="AndroidN/abi" remote="origin "
+	 <copyfile src="core/root.mk" dest="Makefile" />
+	</project>
+	<project path="bionic" name="AndroidN/bionic" remote="origin"/>
+	<project path="build" name="AndroidN/build" remote="origin"/>
+	<project path="dalvik" name="AndroidN/dalvik" remote="origin"/>
+    <project path="development" name="AndroidN/development" remote="origin"/>
+    <project path="docs" name="AndroidN/docs" remote="origin"/>
+	<project path="frameworks" name="AndroidN/frameworks" remote="origin"/>
+	<project path="libnativehelper" name="AndroidN/libnativehelper" remote="origin"/>
+	<project path="ndk" name="AndroidN/ndk" remote="origin"/>
+    <project path="packages" name="AndroidN/packages" remote="origin"/>
+    <project path="prebuilts" name="AndroidN/prebuilts" remote="origin"/>
+	<project path="tools" name="AndroidN/tools" remote="origin"/>
+	<project path="art" name="AndroidN/art" remote="origin"/>
+    <project path="bootable" name="AndroidN/bootable" remote="origin"/>
+    <project path="cts" name="AndroidN/cts" remote="origin"/>
+	<project path="developers" name="AndroidN/developers" remote="origin"/>
+	<project path="device" name="AndroidN/device" remote="origin"/>
+	<project path="external" name="AndroidN/external" remote="origin"/>
+    <project path="libcore" name="AndroidN/libcore" remote="origin"/>
+    <project path="pdk" name="AndroidN/pdk" remote="origin"/>
+	<project path="sdk" name="AndroidN/sdk" remote="origin"/>
+	<project path="system" name="AndroidN/system" remote="origin"/>
+    <project path="vendor" name="AndroidN/vendor" remote="origin"/>
+	              
+</manifest>
