@@ -17,6 +17,7 @@
 	<project path="docs" name="AndroidN/docs" />
 	<project path="frameworks" name="AndroidN/frameworks" />
 	<project path="libnativehelper" name="AndroidN/libnativehelper"/>
+	<project path="hardware" name="AndroidN/hardware"/>
 	<project path="ndk" name="AndroidN/ndk" />
 	<project path="packages" name="AndroidN/packages"/>
 	<project path="prebuilts" name="AndroidN/prebuilts"/>
