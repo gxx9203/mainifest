@@ -25,8 +25,10 @@
 	<project path="bootable" name="AndroidN/bootable"/>
 	<project path="cts" name="AndroidN/cts" />
 	<project path="developers" name="AndroidN/developers" />
-	<project path="device" name="AndroidN/device" />
-
+	<project path="device" name="AndroidN/device" >
+		<copyfile src="friendly-arm/tiny4412/gen-img.sh" dest="gen-img.sh" />
+		<copyfile src="friendly-arm/tiny4412/setenv" dest="setenv" />
+	</project>
 	<project path="external" name="AndroidN/external"/>
 	<project path="libcore" name="AndroidN/libcore"/>
 	<project path="pdk" name="AndroidN/pdk" />
