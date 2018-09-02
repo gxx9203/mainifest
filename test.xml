@@ -7,7 +7,10 @@
            remote="mygerrit"
            sync-j="4" />
 
-	<project path="test1" name="test/test1" />
-	<project path="test2" name="test/test2" />
+	<project path="test1" name="test/test1" remote="mygerrit" />
+	<project path="test2" name="test/test2" remote="mygerrit"/>
 
 </manifest>
+
+
+
