@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="origin"
-			fetch="ssh:admin@127.0.0.1:29418"
+			fetch="ssh:admin@127.0.0.1:"
 			review="127.0.0.1:82"/>
 	<default revision="master"
            remote="origin"
@@ -25,10 +25,8 @@
     <project path="bootable" name="AndroidN/bootable" remote="origin"/>
     <project path="cts" name="AndroidN/cts" remote="origin"/>
 	<project path="developers" name="AndroidN/developers" remote="origin"/>
-	<project path="device" name="AndroidN/device" remote="origin">
-			<copyfile src="friendly-arm/tiny4412/gen-img.sh" dest="gen-img.sh" />
-			<copyfile src="friendly-arm/tiny4412/set-env" dest="set-env" />
-	</project>
+	<project path="device" name="AndroidN/device" remote="origin"/>
+
 	<project path="external" name="AndroidN/external" remote="origin"/>
     <project path="libcore" name="AndroidN/libcore" remote="origin"/>
     <project path="pdk" name="AndroidN/pdk" remote="origin"/>
