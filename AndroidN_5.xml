@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="mygerrit"
-			fetch=".."
-			review="127.0.0.1:82"/>
+		fetch=".."
+		review="127.0.0.1:82"/>
 	<default revision="master"
-           remote="mygerrit"
-           sync-j="4" />
+		remote="mygerrit"
+		sync-j="4" />
 
-	<project path="build" name="AndroidN/build" remote="mygerrit " >
+	<project path="build" name="AndroidN/build" >
 		<copyfile src="core/root.mk" dest="Makefile" />
 	</project>
-	<project path="bionic" name="AndroidN/bionic" remote="mygerrit"/>
-	<project path="abi" name="AndroidN/abi" remote="mygerrit"/>
-	<project path="dalvik" name="AndroidN/dalvik" remote="mygerrit"/>
-    <project path="development" name="AndroidN/development" remote="mygerrit"/>
-    <project path="docs" name="AndroidN/docs" remote="mygerrit"/>
-	<project path="frameworks" name="AndroidN/frameworks" remote="mygerrit"/>
-	<project path="libnativehelper" name="AndroidN/libnativehelper" remote="mygerrit"/>
-	<project path="ndk" name="AndroidN/ndk" remote="mygerrit"/>
-    <project path="packages" name="AndroidN/packages" remote="mygerrit"/>
-    <project path="prebuilts" name="AndroidN/prebuilts" remote="mygerrit"/>
-	<project path="tools" name="AndroidN/tools" remote="mygerrit"/>
-	<project path="art" name="AndroidN/art" remote="mygerrit"/>
-    <project path="bootable" name="AndroidN/bootable" remote="mygerrit"/>
-    <project path="cts" name="AndroidN/cts" remote="mygerrit"/>
-	<project path="developers" name="AndroidN/developers" remote="mygerrit"/>
-	<project path="device" name="AndroidN/device" remote="mygerrit"/>
+	<project path="bionic" name="AndroidN/bionic" />
+	<project path="abi" name="AndroidN/abi" />
+	<project path="dalvik" name="AndroidN/dalvik"/>
+	<project path="development" name="AndroidN/development"/>
+	<project path="docs" name="AndroidN/docs" />
+	<project path="frameworks" name="AndroidN/frameworks" />
+	<project path="libnativehelper" name="AndroidN/libnativehelper"/>
+	<project path="ndk" name="AndroidN/ndk" />
+	<project path="packages" name="AndroidN/packages"/>
+	<project path="prebuilts" name="AndroidN/prebuilts"/>
+	<project path="tools" name="AndroidN/tools"/>
+	<project path="art" name="AndroidN/art"/>
+	<project path="bootable" name="AndroidN/bootable"/>
+	<project path="cts" name="AndroidN/cts" />
+	<project path="developers" name="AndroidN/developers" />
+	<project path="device" name="AndroidN/device" />
 
-	<project path="external" name="AndroidN/external" remote="mygerrit"/>
-    <project path="libcore" name="AndroidN/libcore" remote="mygerrit"/>
-    <project path="pdk" name="AndroidN/pdk" remote="mygerrit"/>
-	<project path="sdk" name="AndroidN/sdk" remote="mygerrit"/>
-	<project path="system" name="AndroidN/system" remote="mygerrit"/>
-    <project path="vendor" name="AndroidN/vendor" remote="mygerrit"/>
-	              
+	<project path="external" name="AndroidN/external"/>
+	<project path="libcore" name="AndroidN/libcore"/>
+	<project path="pdk" name="AndroidN/pdk" />
+	<project path="sdk" name="AndroidN/sdk"/>
+	<project path="system" name="AndroidN/system"/>
+	<project path="vendor" name="AndroidN/vendor"/>      
 </manifest>
